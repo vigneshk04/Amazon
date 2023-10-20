@@ -1,0 +1,7 @@
+<suite name="Amazon Automation">
+	<test name="System testing" allow-return-values="true">
+        <classes>
+			<class name="automation.TestNew" />
+		</classes>
+	</test>
+</suite>

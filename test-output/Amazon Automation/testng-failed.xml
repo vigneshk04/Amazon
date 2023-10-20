@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon Automation]">
+  <test thread-count="5" name="System testing(failed)">
+    <classes>
+      <class name="automation.TestNew">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="Driver"/>
+          <include name="TC02"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- automation.TestNew -->
+    </classes>
+  </test> <!-- System testing(failed) -->
+</suite> <!-- Failed suite [Amazon Automation] -->
